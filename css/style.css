@@ -1,0 +1,190 @@
+html{
+	font-size: 20px;
+}
+
+body{
+	background: #fff;
+	color: #333;
+
+	line-height: 1.6;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+
+	margin: 0;
+}
+
+*, *:after, *:before{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+
+	margin: 0 auto;
+}
+
+/* Intro */
+.intro{
+	width: 100vw;
+	height: 100vh;
+
+	background: url('../images/Sl.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/** Header **/
+.header{ 
+	z-index: 999;
+	width: 100%;
+	margin: 0;
+}
+.header_cont{
+	display: flex;
+
+	align-items: center;
+}
+.header_cont>*{
+	flex-basis: 100%;
+}
+
+.logo{
+	font-size: 2rem;
+	font-weight: 700;
+	color: #fff;
+
+	margin-left: 40px;
+}
+
+.menu{
+	text-transform: uppercase;
+	font-size: 0.9rem;
+
+	display: flex;
+	justify-content: flex-end;
+}
+.menu-item{
+	color: white;
+	text-decoration: none;
+	line-height: 100%;
+
+	margin-right: 40px;
+
+	transition: .3s all;
+}
+
+.menu-item::after{
+	content: '';
+	display: block;
+
+	border-top: 3px solid #fce38a;
+
+	width: 0;
+	height: 0;
+
+	transition: .3s all;
+
+	position: relative;
+	top: 5px;
+
+	z-index: 1000;
+}
+
+.menu-item:hover{
+	color: #fce38a;
+}
+.menu-item:hover::after{
+	width: 100%;
+}
+
+.menu-item .fa{
+	padding: 0 5px;
+	text-align: center;
+}
+
+/** Text **/
+.content{
+	color: #fff;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text-head{
+	font-family: 'Kaushan Script';
+	margin: 0;
+}
+
+.text-content{
+	width: 100%;
+	max-width: 500px;
+
+	font-size: 3.5rem;
+	font-weight: 700;
+
+	line-height: 1;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	margin: 0;
+	margin-bottom: 50px;
+}
+.text-content::after{
+	content: '';
+
+	display: block;
+	width: 100px;
+	height: 0;
+	margin: 0 auto;
+
+	position: relative;
+	top: 40px;
+
+	margin-bottom: 40px;
+
+	border-top: 3px solid #fff;
+}
+
+.but{
+	padding: 5px 20px;
+	color: #fff;
+	border: 3px solid #fff;
+	cursor: pointer;
+	transition: .3s all;
+	text-decoration: none;
+}
+.but:hover{
+	background: rgba(255, 255, 255, .3);
+}
+
+.intro-footer{
+	color: #fff;
+
+	display: flex;
+
+	width: 75vw;
+
+	margin-bottom: 30px;
+}
+.intro-footer-item{
+	flex-basis: 100%;
+
+	border-top: 3px solid #fff;
+	margin-right: 20px;
+}
+.intro-footer-item-numb{
+	font-weight: 700;
+}
+.intro-footer-item-content{
+	text-transform: uppercase;
+}
