@@ -208,6 +208,16 @@ body{
 .mt-2{
 	margin-top: 2rem;
 }
+.m-1{
+	margin: 1rem;
+}
+.p-1{
+	padding: 1rem;
+}
+.bb-0{
+	border-bottom: 0;
+	border-top: 0;
+}
 
 .about-subhead{
 	font-size: 1.5rem;
@@ -368,7 +378,7 @@ body{
 
 	font-size: 1.5rem;
 
-	margin-right: 1rem;
+	margin-right: 1.5rem;
 }
 
 .service-head{
@@ -384,5 +394,96 @@ body{
 .service-text{
 	font-family: 'Roboto', sans-serif;
 	font-weight: lighter;
+	font-size: 1rem;
+}
+
+/*Devices*/
+
+.devices{
+	background: url('../images/device-bg.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+
+	position: relative;
+}
+
+.dev-cont{
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-between;
+
+	align-items: center;
+}
+
+.device-images-iphone{
+	position: absolute;
+	right: 28%;
+	top: 50%;
+
+	transform: scale(0.7);
+
+}
+
+/* Description services */
+
+.desc-services-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+#accordion{
+	width: 100%;
+	margin-left: 1rem;
+}
+
+.desc-serv-slide{
+}
+
+.desc-serv-slide-header{
+	padding: 15px 20px;
+
+	border: 1px solid silver;
+
+	display: flex;
+	justify-content: space-between;
+
+	cursor: pointer;
+}
+
+.desc-serv-slide-header-icon{
+	color: #95e1d3;
+	font-size: 1.5rem;
+}
+.desc-serv-slide-header-head{
+	margin: 0 10px;
+
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 	font-size: .75rem;
+	font-weight: lighter;
+	color: #000;
+
+	line-height: 2;
+}
+
+.desc-serv-slide-content{
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	color: grey;
+	font-size: .75rem;
+
+	border: 1px solid silver;
+	border-top: 0;
+
+	max-height: 140px;
+	height: 0;
+	overflow-y: scroll;
+}
+
+.toggle{
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: grey;
 }
