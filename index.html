@@ -8,11 +8,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 	<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script type="text/javascript" src = "js/index.js"></script>
 </head>
 <body>
@@ -64,9 +67,9 @@
 			
 			<h1 class = "about-header t-center">Story about us</h1>
 
-			<p class="about-text t-center pt-2">
+			<div class="about-text t-center pt-2">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-			</p>
+			</div>
 
 			<div class="about-team-slider">
 				<div class="about-team-slide">
@@ -93,7 +96,7 @@
 			</div>
 		</div>
 
-		<div class="about-stats mt-2 py-2">
+		<div class="about-stats mt-2 p-2">
 			<div class="container">
 				<div class="about-stats-slider">
 					<div class="about-stats-item">
@@ -192,7 +195,7 @@
 			<h1 class = "about-header t-center">What we do</h1>
 
 			<div class="desc-services-content">
-				<img src="./images/desc-serv.jpg" alt="">
+				<img src="./images/desc-serv.jpg" alt="" class = "desc-services-img">
 
 				<div id="accordion">
 					<div class="desc-serv-slide">
@@ -202,22 +205,22 @@
 								<span class="desc-serv-slide-header-head">Photography</span>
 							</div>
 
-							<div class="toggle">
-								&or;
+							<div>
+								<i class = "fa fa-angle-up toggle"></i>
 							</div>
 						</div>
 
-						<div class="desc-serv-slide-content" style="height: 150px">
+						<div class="desc-serv-slide-content" style="height: auto">
 							<div class = "m-1">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus deserunt officia, cupiditate iure id, et nobis, perferendis nam hic consequatur voluptates eos illo quis consequuntur voluptate totam itaque est.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eaque eos ex delectus consectetur atque perspiciatis. Porro facere, voluptate inventore illo, culpa unde, velit aperiam modi, error quasi totam consectetur.</div>
-							<div>Similique aperiam nostrum sint, eaque aspernatur, est minima corporis optio accusantium harum quia vitae! Alias blanditiis ut fugit, omnis repudiandae id eum iure tempore, culpa sunt sapiente laudantium distinctio similique.</div>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus deserunt officia, cupiditate iure id, et nobis, perferendis nam hic consequatur voluptates eos illo quis consequuntur voluptate totam itaque est.
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eaque eos ex delectus consectetur atque perspiciatis. Porro facere, voluptate inventore illo, culpa unde, velit aperiam modi, error quasi totam consectetur.</div>
+								<div>Similique aperiam nostrum sint, eaque aspernatur, est minima corporis optio accusantium harum quia vitae! Alias blanditiis ut fugit, omnis repudiandae id eum iure tempore, culpa sunt sapiente laudantium distinctio similique.</div>
 							</div>
 						</div>
 					</div>
@@ -227,20 +230,20 @@
 								<i class = "fa fa-dot-circle desc-serv-slide-header-icon"></i>
 								<span class="desc-serv-slide-header-head">Creativity</span>
 							</div>
-							<div class="toggle">
-								&or;
+							<div>
+								<i class = "fa fa-angle-down toggle"></i>
 							</div>
 						</div>
 
 						<div class="desc-serv-slide-content">
 							<div class = "m-1">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus deserunt officia, cupiditate iure id, et nobis, perferendis nam hic consequatur voluptates eos illo quis consequuntur voluptate totam itaque est.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus deserunt officia, cupiditate iure id, et nobis, perferendis nam hic consequatur voluptates eos illo quis consequuntur voluptate totam itaque est.
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</div>
 						</div>
 					</div>
@@ -251,20 +254,20 @@
 								<span class="desc-serv-slide-header-head">Web design</span>
 							</div>
 
-							<div class="toggle">
-								&or;
+							<div>
+								<i class = "fa fa-angle-down toggle"></i>
 							</div>
 						</div>
 
 						<div class="desc-serv-slide-content">
 							<div class = "m-1">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus deserunt officia, cupiditate iure id, et nobis, perferendis nam hic consequatur voluptates eos illo quis consequuntur voluptate totam itaque est.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus deserunt officia, cupiditate iure id, et nobis, perferendis nam hic consequatur voluptates eos illo quis consequuntur voluptate totam itaque est.
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</div>
 						</div>
 					</div>
@@ -273,8 +276,199 @@
 		</div>
 	</section>
 
-	<section>
-		<h1>fdsf</h1>
+	<section class="recension mt-3">
+		<div class="container cont-rec">
+			<div class="recension-slider">
+				<div>
+					<div class="recension-slider-item">
+						<div class="recension-slider-item-icon">
+							<i class="fa fa-comment"></i>
+						</div>
+						<div class="recension-slider-item-content">
+							<div class="recension-slider-item-content-text">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+							</div>
+							<div class="recension-slider-item-content-author">
+								<div class="line"></div>
+								<div>Due Halt</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="recension-slider-item">
+						<div class="recension-slider-item-icon">
+							<i class="fa fa-comment-alt"></i>
+						</div>
+						<div class="recension-slider-item-content">
+							<div class="recension-slider-item-content-text">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  Ut enim ad minim veniam, quis nostrud exercitation.”
+							</div>
+							<div class="recension-slider-item-content-author">
+								<div class="line"></div>
+								<div>Due Halt</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="team">
+		<div class="container pt-5">
+			<h5 class = "text-head t-center about-subhead">Who we are</h5>
+
+			<h1 class = "about-header t-center">Meet our team</h1>
+
+			<div class="about-text t-center pt-2">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			</div>
+
+			<div class="about-team-slider">
+				<div>
+					<div class = "about-team-slide">
+					<img src="images/member-1.jpg" class="full">
+
+					<div class="about-team-slide-content t-center">
+						<div class = "team-member-share">
+							<div><i class="fab fa-facebook-f"></i></div>
+							<div><i class="fab fa-twitter"></i></div>
+							<div><i class="fab fa-instagram"></i></div>
+							<div><i class="fab fa-skype"></i></div>
+						</div>
+					</div>
+					</div>
+
+					<div class="member-text">
+						<div class="member-text-name">Mathew M</div>
+						<div class="member-text-position">Graphic design</div>
+					</div>
+				</div>
+				<div>
+					<div class = "about-team-slide">
+					<img src="images/member-2.jpg" class="full">
+
+					<div class="about-team-slide-content t-center">
+						<div class = "team-member-share">
+							<div><i class="fab fa-facebook-f"></i></div>
+							<div><i class="fab fa-twitter"></i></div>
+							<div><i class="fab fa-instagram"></i></div>
+							<div><i class="fab fa-skype"></i></div>
+						</div>
+					</div>
+					</div>
+
+					<div class="member-text">
+						<div class="member-text-name">Mathew M</div>
+						<div class="member-text-position">Graphic design</div>
+					</div>
+				</div>
+				<div>
+					<div class = "about-team-slide">
+					<img src="images/member-3.jpg" class="full">
+
+					<div class="about-team-slide-content t-center">
+						<div class = "team-member-share">
+							<div><i class="fab fa-facebook-f"></i></div>
+							<div><i class="fab fa-twitter"></i></div>
+							<div><i class="fab fa-instagram"></i></div>
+							<div><i class="fab fa-skype"></i></div>
+						</div>
+					</div>
+					</div>
+
+					<div class="member-text">
+						<div class="member-text-name">Mathew M</div>
+						<div class="member-text-position">Graphic design</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="partners mt-3">
+		<div class="container p-2">
+			<div class="partners-list">
+				<img src="images/partner.jpg" alt="">
+				<img src="images/partner.jpg" alt="">
+				<img src="images/partner.jpg" alt="">
+				<img src="images/partner.jpg" alt="">
+				<img src="images/partner.jpg" alt="">
+				<img src="images/partner.jpg" alt="">
+			</div>
+		</div>
+	</section>
+
+	<section class = "works">
+		<div class="container pt-5">
+			<h5 class = "text-head t-center about-subhead">What we do</h5>
+
+			<h1 class = "about-header t-center">Some of our work</h1>
+
+			<div class="about-text t-center pt-2">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			</div>
+
+			<div class="works-gallery">
+				<div class = "works-gallery-block-1">
+					<div class="works-gallery-row">
+						<img src="images/gallery-1.jpg" alt="">
+						<img src="images/gallery-2.jpg" alt="">
+					</div>
+					<div class = "works-gallery-row">
+						<img src="images/gallery-3.jpg" alt="">
+						<img src="images/gallery-4.jpg" alt="">
+					</div>
+				</div>
+				<div class = "works-gallery-block-2">
+					<img src="images/gallery-5.jpg" alt="">
+				</div>
+				<div class = "works-gallery-block-3">
+					<img src="images/gallery-6.jpg" alt="">
+					<img src="images/gallery-7.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+<section class="recension mt-3 testimonial">
+		<div class="container cont-rec">
+			<div class="recension-slider w-75">
+				<div>
+					<div class="recension-slider-item">
+						<div class="recension-slider-item-icon">
+							<img src="images/member-2.jpg" class= "testimonial-img">
+						</div>
+						<div class="recension-slider-item-content">
+							<div class="recension-slider-item-content-text">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+							</div>
+							<div class="recension-slider-item-content-author">
+								<div class="line"></div>
+								<div>Due Halt</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="recension-slider-item">
+						<div class="recension-slider-item-icon">
+							<img src="images/member-3.jpg" class= "testimonial-img">
+						</div>
+						<div class="recension-slider-item-content">
+							<div class="recension-slider-item-content-text">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  Ut enim ad minim veniam, quis nostrud exercitation.”
+							</div>
+							<div class="recension-slider-item-content-author">
+								<div class="line"></div>
+								<div>Due Halt</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 </body>
 </html>
