@@ -399,7 +399,7 @@ body{
 .service-text{
 	font-family: 'Roboto', sans-serif;
 	font-weight: lighter;
-	font-size: 1rem;
+	font-size: .75rem;
 }
 
 /*Devices*/
@@ -501,7 +501,6 @@ body{
 
 .recension-slider{
 	width: 100%;
-	background: #f1f1f1;
 	margin: 0 auto;
 
 	display: flex !important;
@@ -596,7 +595,7 @@ body{
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 1rem;
+	font-size: .75rem;
 }
 .member-text-position{
 	text-align: center;
@@ -651,4 +650,182 @@ body{
 .testimonial-img{
 	border-radius: 100%;
 	max-height: 150px;
+}
+.testimonial{
+	background: #fff;
+}
+
+.people{
+	background: url('../images/people.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.people-reviews{
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+}
+.people-review{
+	flex-basis: 50%;
+	display: flex;
+
+	padding: 0 2rem;
+	margin-bottom: 2rem;
+}
+.people-photo{
+	border-radius: 50%;
+	width: 5rem;
+	height: 5rem;
+}
+.people-review-content{
+	margin-left: 2rem;
+}
+.people-review-name{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.people-review-position{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: .8rem;
+	font-weight: lighter;
+	margin-bottom: 2rem;
+}
+.people-review-position::after{
+	content: '';
+	width: 3rem;
+	display: block;
+	position: relative;
+	top: 1rem;
+	border-top: 3px solid #f38181;
+}
+.people-review-text{
+	font-family: 'Roboto', sans-serif;
+	font-size: .75rem;
+	color: #999;
+}
+
+.blog-posts{
+	display: flex;
+	justify-content: space-around;
+}
+
+.blog-post{
+	margin: 0 1rem;
+}
+
+.blog-post-photo{
+	position: relative;
+}
+
+.blog-post-image{
+	width: 100%;
+}
+
+.blog-post-date{
+	position: absolute;
+	bottom: 30px;
+	left: -15px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 3.5rem;
+	height: 3.5rem;
+	background: #95e1d3;
+
+	text-align: center;
+	line-height: 1;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .75rem;
+}
+
+.blog-post-date-numb{
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.blog-post-title{
+	font-family: 'Montserrat', sans-serif;
+	font-size: .75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: .5rem 0;
+}
+
+.blog-post-text{
+	font-family: 'Roboto', sans-serif;
+	font-size: .75rem;
+	color: #999;
+
+	margin-bottom: 1rem;
+}
+
+.blog-post-stats{
+	padding-top: 1rem;
+
+	border-top: 1px solid #e5e5e5;
+
+	color: #e5e5e5;
+
+	display: flex;
+	align-items: center;
+
+}
+.blog-post-stats .fa{
+	color: #95e1d3;
+}
+.blog-post-stats>*{
+	margin: 0 5px;
+}
+
+.map{
+	background: url('../images/map-bg.png');
+	background-size: cover;
+}
+
+.map-cont{
+	text-align: center;
+	color: #f38181;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+
+	padding: 3rem 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.map-text{
+	margin-top: 1rem;
+}
+.map-text-line{
+	margin-top: 1rem;
+
+	width: 3rem;
+
+	border-top: 3px solid #f38181;
+}
+
+
+footer{
+	margin-top: 3rem;
+	padding: 1rem;
+
+	border-top: 1px solid #e5e5e5;
+
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .75rem;
+	font-weight: 700;
 }
