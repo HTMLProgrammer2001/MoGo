@@ -4,11 +4,11 @@
 	<meta charset="UTF-8">
 	<title>Mogo</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 	<script
@@ -24,10 +24,10 @@
 			<div class="container header_cont">
 				<div class="logo">Mogo</div>
 				<nav class="menu">
-					<a class="menu-item" href="#">About</a>
-					<a class="menu-item" href="#">Work</a>
-					<a class="menu-item"  href="#">Blog</a>
-					<a class="menu-item" href="#">Contact</a>
+					<a class="menu-item" href="#about">About</a>
+					<a class="menu-item" href="#works">Work</a>
+					<a class="menu-item"  href="#blog">Blog</a>
+					<a class="menu-item" href="#contact">Contact</a>
 					<a class="menu-item" href="#"><i class="fa fa-search"></i></a>
 					<a class="menu-item" href="#"><i class="fa fa-shopping-cart"></i></a>
 				</nav>
@@ -38,7 +38,7 @@
 			<h1 class = "text-head">Creative Templates</h1>
 			<h1 class = "text-content">Welcome to MoGo</h1>
 
-			<a href = "#" class="but">Learn More</a>
+			<a href = "#" class="but" id="slide">Learn More</a>
 		</div>
 
 		<div class = "intro-footer">
@@ -61,7 +61,7 @@
 		</div>
 	</section>
 
-	<section class="about">
+	<section class="about" id="about">
 		<div class="container pt-5">
 			<h5 class = "text-head t-center about-subhead">What we do</h5>
 			
@@ -400,7 +400,7 @@
 		</div>
 	</section>
 
-	<section class = "works">
+	<section class = "works" id = "works">
 		<div class="container pt-5">
 			<h5 class = "text-head t-center about-subhead">What we do</h5>
 
@@ -471,7 +471,7 @@
 		</div>
 	</section>
 
-	<section class="people p-0 mt-3">
+	<section class="people p-0 mt-3 px-2">
 		<div class="container pt-5 dev-cont">
 			<h5 class = "text-head t-center about-subhead">Happy clients</h5>
 
@@ -542,7 +542,7 @@
 		</div>
 	</section>
 
-	<section class="blog">
+	<section class="blog" id = "blog">
 		<div class="container pt-5">
 			<h5 class = "text-head t-center about-subhead">Our stories</h5>
 
@@ -639,9 +639,88 @@
 		</div>
 	</section>
 
+	<section class="callback" id = "contact">
+		<div class="container callback-cont px-2">
+			<div class = "template">
+				<h1 class="template-name">MoGo</h1>
+
+				<div class="template-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</div>
+
+				<form class="template-subscribe">
+					<input type="text" class = "template-subscribe-field" placeholder="Email">
+					<input type="button" class = "template-subscribe-but" value = "Subscribe">
+				</form>
+			</div>
+			<div class = "callback-blog">
+				<h1 class="callback-blog-title">Blogs</h1>
+
+				<div class="callback-blog-posts">
+					<div class="callback-blog-post">
+						<img src="images/gallery-1.jpg">
+						<div class="callback-blog-post-content">
+							<div class="callback-blog-post-title">
+								Lorem ipsum dolor sit amet, 
+								consectetur adipiscing
+							</div>
+							<div class="callback-blog-post-date">
+								19 JAN, 2016
+							</div>
+						</div>
+					</div>
+					<div class="callback-blog-post">
+						<img src="images/gallery-1.jpg">
+						<div class="callback-blog-post-content">
+							<div class="callback-blog-post-title">
+								Lorem ipsum dolor sit amet, 
+								consectetur adipiscing
+							</div>
+							<div class="callback-blog-post-date">
+								19 JAN, 2016
+							</div>
+						</div>
+					</div>
+					<div class="callback-blog-post">
+						<img src="images/gallery-1.jpg">
+						<div class="callback-blog-post-content">
+							<div class="callback-blog-post-title">
+								Lorem ipsum dolor sit amet, 
+								consectetur adipiscing
+							</div>
+							<div class="callback-blog-post-date">
+								19 JAN, 2016
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="callback-instagram">
+				<h1 class="callback-blog-title">Instagram</h1>
+
+				<div class="callback-insta-content">
+					<div class="callback-insta-content-row">
+						<img src="images/gallery-1.jpg" alt="">
+						<img src="images/gallery-1.jpg" alt="">
+						<img src="images/gallery-1.jpg" alt="">
+					</div>
+					<div class="callback-insta-content-row">
+						<img src="images/gallery-1.jpg" alt="">
+						<img src="images/gallery-1.jpg" alt="">
+						<img src="images/gallery-1.jpg" alt="">
+					</div>
+					<div class="callback-insta-content-row">
+						<img src="images/gallery-1.jpg" alt="">
+						<img src="images/gallery-1.jpg" alt="">
+						<img src="images/gallery-1.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<footer>
 		&copy; 2019 MoGo Template
 	</footer>
-
 </body>
 </html>

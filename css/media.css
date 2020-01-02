@@ -1,5 +1,14 @@
-@media all and (min-width: 600){
+@media all and (max-width: 1000px){
+	.blog-post{
+		margin-top: 3rem;
+		flex-basis: 100% !important;
+	}
+
 	.services-list{
-		grid-template-columns: repeat(2, 1fr) !important;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.callback-cont>*{
+		flex-basis: 100%;
 	}
 }

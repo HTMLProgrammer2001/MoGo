@@ -30,5 +30,19 @@ $(document).ready(
 			nextArrow: '<div class = "next-arrow"><i class = "fa fa-angle-right"></i></div>',
 			cssEasy: 'linear'
 		});
+
+		$('#slide').on('click', (e) => {
+			$('html, body').animate({
+			scrollTop: $(window).height()
+		}, 300);
+		});
+
+		$('.menu .menu-item').on('click', function(e){
+			$('html, body').animate({
+				scrollTop: $( $(this).attr('href') ).position().top
+			}, 500);
+
+			return false;
+		});
 	}
 );
